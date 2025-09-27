@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+  /* Modern Luxury Theme */
+  --primary: #2c3e50; /* Deep Blue-Gray */
+  --secondary: #e67e22; /* Warm Orange */
+  --background: #f5f6fa; /* Light Gray-Blue */
+  --text: #2d3436; /* Dark Gray */
+  --white: #ffffff;
+  --accent: #e84393; /* Pink Accent */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+  --nav-color: rgba(44, 62, 80, 0.95); /* Semi-transparent Primary */
+  --side-nav: #2c3e50;
+  --text-color: #ecf0f1;
+
+  /* Additional Theme Colors */
+  --gradient-primary: linear-gradient(135deg, #2c3e50, #3498db);
+  --card-bg: rgba(255, 255, 255, 0.95);
+  --success: #2ecc71;
+  --warning: #f1c40f;
+  --error: #e74c3c;
+}
+
+/* Global Font Settings */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary);
+}
