@@ -17,14 +17,14 @@
   nav.active .menu {
     left: -0%;
   }
-  .gallery-container{
+  .gallery-container {
     flex-direction: column;
   }
-  .gallery-item{
+  .gallery-item {
     height: 100%;
     width: 100%;
   }
-  .gallery{
+  .gallery {
     margin: 5rem 1rem;
   }
   .menu .logo-toggle {
@@ -63,22 +63,14 @@
     padding-right: 0;
     text-align: center;
   }
-  .pic-ctn {
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    margin: 0;
-    height: 100%;
-  }
-  .gallery-container{
+  .gallery-container {
     flex-direction: column;
   }
-  .gallery-item{
+  .gallery-item {
     height: 100%;
     width: 100%;
   }
-  .gallery{
+  .gallery {
     margin: 5rem 1rem;
   }
 }
@@ -96,14 +88,14 @@
     flex-direction: column;
     gap: 2rem;
   }
-  .gallery-container{
+  .gallery-container {
     flex-direction: column;
   }
-  .gallery-item{
+  .gallery-item {
     height: 100%;
     width: 100%;
   }
-  .gallery{
+  .gallery {
     margin: 5rem 1rem;
   }
 }

@@ -97,7 +97,6 @@ body {
   transform: scale(1.1);
 }
 
-
 /* Testimonials */
 .testimonials {
   padding: 5rem 5%;
@@ -221,21 +220,6 @@ body {
   gap: 0.5rem;
 }
 
-.dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: var(--primary);
-  opacity: 0.3;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.dot.active {
-  opacity: 1;
-  transform: scale(1.2);
-}
-
 @media (max-width: 768px) {
   .testimonial-card {
     min-width: calc(100% - 2rem);
@@ -243,11 +227,6 @@ body {
 }
 
 /* Contact Section */
-.contact {
-  padding: 5rem 5%;
-  text-align: center;
-}
-
 .contact-form {
   padding: 3rem;
   background: linear-gradient(145deg, #ffffff, #f5f6fa);
@@ -418,25 +397,6 @@ body {
 }
 
 /* Loading indicator */
-.submit-btn.loading {
-  position: relative;
-  color: transparent;
-}
-
-.submit-btn.loading::after {
-  content: "";
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 20px;
-  height: 20px;
-  border: 2px solid white;
-  border-radius: 50%;
-  border-top-color: transparent;
-  animation: spin 1s linear infinite;
-  transform: translate(-50%, -50%);
-}
-
 @keyframes spin {
   to {
     transform: translate(-50%, -50%) rotate(360deg);
@@ -490,7 +450,6 @@ body {
   transform: translateY(-2px);
 }
 
-
 /* Image Optimization Styles */
 img {
   max-width: 100%;
@@ -514,21 +473,6 @@ img {
 img[loading="lazy"] {
   opacity: 0;
   transition: opacity 0.3s ease;
-}
-
-.pic-ctn {
-  position: relative;
-  width: 50vw;
-  height: 300px;
-  margin-right: 12rem;
-}
-
-.pic-ctn > img {
-  position: absolute;
-  top: 0;
-  left: calc(50% - 100px);
-  opacity: 0;
-  animation: display 10s infinite;
 }
 
 img:nth-child(2) {
